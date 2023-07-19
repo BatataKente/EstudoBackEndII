@@ -6,9 +6,14 @@ public class Project {
     private int id;
     private String name, description;
     private Date createdAt, updatedAt;
-
     public Project(int id, String name, String description, Date createdAt, Date updatedAt) {
         this.id = id;
+        this.name = name;
+        this.description = description;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
+    public Project(String name, String description, Date createdAt, Date updatedAt) {
         this.name = name;
         this.description = description;
         this.createdAt = createdAt;

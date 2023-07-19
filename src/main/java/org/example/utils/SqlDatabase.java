@@ -7,7 +7,7 @@ public abstract class SqlDatabase {
     private static final String URL = "jdbc:mysql://localhost:3306/todoapp";
     private static final String USER = "root";
     private static final String PASS = "";
-    enum Errors {
+    private enum Errors {
         OPENING,
         CLOSING
     }
